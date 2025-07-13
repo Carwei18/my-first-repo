@@ -1,0 +1,22 @@
+# 這是註解，會被忽略
+
+# 忽略所有 .log 結尾的日誌檔
+*.log
+
+# 忽略所有 build 資料夾（不論大小寫）
+[Bb]uild/
+
+# 忽略特定的檔案
+my_secret_key.txt
+
+# 忽略 my_temp_folder 資料夾及其所有內容
+my_temp_folder/
+
+# 忽略 node_modules 資料夾（JavaScript 專案常用）
+node_modules/
+
+# 忽略所有 .DS_Store 檔案 (macOS 系統檔案)
+.DS_Store
+
+# 忽略特定檔案，但允許某個子目錄下的同名檔案 (用 ! 來取消忽略)
+# !config/important.json # 如果你之前忽略了所有 .json，但想追蹤這個
